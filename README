@@ -1,0 +1,37 @@
+This code was used in the Physical Review E paper titled "Driven Lorentz Gas Model in the Discrete Time Domain" by Dan Shafir, Alessio Squarcini, Stanislav Burov, and Thomas Franosch (accepted on April 23, 2025).
+If you use this code in your work, please cite the above article.
+
+--------------------------------------------------------------------------
+sim_obstacles_response.py
+
+code is in python using the numpy library. This generates the simulations data for Figures 2, 4, and 8.
+Note the code does not need to be efficent for large step numbers.
+--------------------------------------------------------------------------------
+
+The c code usues the random number generator library 
+ SFMT ver. 1.5
+ SIMD oriented Fast Mersenne Twister(SFMT)
+
+-- see documentation online
+
+------------------------------------------------------------------------------
+
+simulation for small number of steps - used to generate the data for figures 5 and 6
+
+small_N_sim.c
+---------------------------------------------
+
+the simulations for the superdiffusive investigations. This is used to plot Figure 7
+small_N_sim_superdiffusive.c
+-----------------------------------------------
+
+The code for convergence of the terminal velocity in Fig. 3
+
+small_N_sim_terminal.c 
+
+-------------------------------------------------
+The code for the small N behavior of y^2, used to generate the simulations data for figure 9.
+
+small_N_sim_y2.c
+
+----------------------------------------------------------------
