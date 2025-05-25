@@ -22,7 +22,7 @@ small_N_sim.c
 ---------------------------------------------
 
 the simulations for the superdiffusive investigations. This is used to plot Figure 7
-small_N_sim_superdiffusive.c
+lorentz_sim_superdiffusive.c
 -----------------------------------------------
 
 The code for convergence of the terminal velocity in Fig. 3
